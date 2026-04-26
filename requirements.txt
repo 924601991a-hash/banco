@@ -1,5 +1,3 @@
 streamlit
-firebase-admin
 pandas
-streamlist
 firebase-admin
