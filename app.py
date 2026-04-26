@@ -9,7 +9,7 @@ if not firebase_admin._apps:
         # Aquí usas el archivo que vas a subir a GitHub
         cred = credentials.Certificate('credenciales.json')
         firebase_admin.initialize_app(cred, {
-            'databaseURL': 'https://bancoan-86282-default-rtdb.firebaseio.com/' 
+            'databaseURL': 'TU_URL_DE_FIREBASE_AQUI' 
         })
     except:
         st.error("Revisa tu archivo credenciales.json y la URL")
